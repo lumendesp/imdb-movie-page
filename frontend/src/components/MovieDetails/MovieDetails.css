@@ -1,0 +1,34 @@
+.movie-details {
+  padding: 50px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  color: #fff;
+}
+
+.movie-details img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.movie-details-title {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.movie-details-title h2 {
+  font-size: 1.6rem;
+}
+
+.movie-details p {
+  font-size: 0.9rem;
+  color: #8b8b8b;
+}

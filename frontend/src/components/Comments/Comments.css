@@ -1,0 +1,65 @@
+.comments {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.comments h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments li {
+  margin-bottom: 8px;
+}
+
+.comments input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comments button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.comment-item {
+  display: flex;
+  justify-content: space-between; /* Ajusta o espaçamento entre os elementos */
+  align-items: center; /* Centraliza verticalmente os itens */
+  margin-bottom: 10px; /* Espaço entre os comentários */
+}
+
+.comment-content {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o texto e os botões */
+}
+
+.comment-text {
+  margin-left: 8px; /* Espaço entre o nome do usuário e o texto do comentário */
+}
+
+.edit-section {
+  display: flex; /* Usando flexbox para os campos de edição e botões */
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.edit-section input {
+  width: 100%;
+}
+
+.update-buttons {
+  display: flex; /* Usando flexbox para os botões */
+  gap: 10px;
+  margin-left: 10px; /* Espaço entre o texto do comentário e os botões */
+}
+
